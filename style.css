@@ -80,6 +80,9 @@ h4 {
 #bg-3 {
     background-color: rgba(255, 228, 196, 0.308);
 }
+.middle-text {
+    padding-top: 100px;
+}
 .section-third {
     display: flex;
     background-image: url(images/shapes/shape-1.png);
@@ -94,4 +97,22 @@ h4 {
 .section-third img {
     max-width: 90%;
     padding-left: 125px;
+}
+.section-fourth {
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: 125%;
+    background-position-x: 95%;
+    padding-top: 100px;
+}
+.section-fourth div {
+    padding-left: 125px;
+}
+.section-fourth img {
+    max-width: 90%;
+    padding-right: 125px;
+    margin-left: -90px;
+    margin-top: 10px;
 }
