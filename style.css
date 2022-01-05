@@ -10,9 +10,16 @@ h1 {
 }
 h2 {
     font-size: 60px;
+    padding: 0;
+    margin: 0;
 }
 h3 {
-    font-size: 30px
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+h4 {
+    font-size: 30px;
 }
 #middle-text {
     text-align: center;
@@ -39,7 +46,7 @@ h3 {
     color: orange;
 }
 .space-left {
-    padding-left: 100px;
+    padding-left: 150px;
 }
 .button {
     background-color: tomato;
@@ -56,7 +63,7 @@ h3 {
 .mid-section div {
     max-width: 30%;
     align-items: center;
-    border-radius: 40px;
+    border-radius: 25px;
     margin: 15px;
     padding-left: 25px;
 }
@@ -72,4 +79,19 @@ h3 {
 }
 #bg-3 {
     background-color: rgba(255, 228, 196, 0.308);
+}
+.section-third {
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: 50%;
+    background-position-x: 1.75%;
+}
+.section-third div {
+    margin-left: -100px;
+}
+.section-third img {
+    max-width: 90%;
+    padding-left: 125px;
 }
