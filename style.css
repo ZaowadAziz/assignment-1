@@ -8,9 +8,17 @@ p {
 h1 {
     font-size: 70px;
 }
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 30px
+}
+#middle-text {
+    text-align: center;
+}
 .flexible-display {
-    display: flex;
-    
+    display: flex;    
 }
 .half-width {
     width: 50%;
@@ -40,4 +48,28 @@ h1 {
     color: white;
     padding: 15px 20px;
     border-radius: 5px;
+}
+.mid-section {
+    display: flex;
+    padding: 0px 140px;
+}
+.mid-section div {
+    max-width: 30%;
+    align-items: center;
+    border-radius: 40px;
+    margin: 15px;
+    padding-left: 25px;
+}
+.mid-section img {
+    max-width: 40%;
+    margin-left: 0;
+}
+#bg-1 {
+    background-color: rgba(187, 218, 228, 0.301);
+}
+#bg-2 {
+    background-color: rgba(255, 182, 193, 0.301);
+}
+#bg-3 {
+    background-color: rgba(255, 228, 196, 0.308);
 }
